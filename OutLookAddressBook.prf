@@ -1,0 +1,20 @@
+[General]
+Custom=1
+ProfileName=Outlook
+DefaultProfile=Yes
+OverwriteProfile=Yes
+
+[Service List]
+LDAP1=Microsoft LDAP Directory
+
+[LDAP1]
+DisplayName=MDaemon Address Book
+ServerName=mdaemon.domain.local
+PortNumber=389
+SearchBase=dc=domain,dc=local
+UseSSL=0
+RequireAuth=1
+AuthUserName=cn=ldapuser,ou=users,dc=domain,dc=local
+AuthPassword=YourStrongPassword
+MaxEntriesReturned=100
+SearchTimeout=60

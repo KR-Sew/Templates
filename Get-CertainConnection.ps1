@@ -1,4 +1,4 @@
-$processName = "1cv8s"
+$processName = "TimeControl"
 $process = Get-Process -Name $processName -ErrorAction SilentlyContinue
 
 if ($process) {

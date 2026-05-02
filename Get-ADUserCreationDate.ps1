@@ -1,1 +1,0 @@
-Get-ADUser -Identity "Derkach.Valentina" -Properties WhenCreated | Select-Object Name, WhenCreated
